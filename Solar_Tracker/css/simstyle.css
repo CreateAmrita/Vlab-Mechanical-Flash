@@ -1,0 +1,194 @@
+.contatinerclass
+{
+	height:480px;
+	width:570px;
+	padding:7px;
+
+	display:table-cell; vertical-align:middle;
+}
+
+
+.contatinerclass4 { float: left;}
+.contatinerclass2 { float: left;}
+.contatinerclass3,.contatinerclass5 { float:right;} 
+
+
+#start,#export,#caliberate,#loading,#stoploading{
+	cursor: pointer;
+	cursor: hand;	
+}
+		
+#videoLivePos{
+	width:100%;height:100%;
+}
+
+.tileWindow {
+	width: 275px;
+	
+}
+.tileWindowlengthy{
+	
+	width: 555px;
+}
+.tile{
+	float:left;
+	margin:2px;
+	}
+
+
+.winTitleBar {
+	height: 25px;
+	background: rgb(255,255,255); /* Old browsers */
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNkZWRlZGUiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(222,222,222,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(222,222,222,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(222,222,222,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(222,222,222,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(222,222,222,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(222,222,222,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#dedede',GradientType=0 ); /* IE6-8 */
+-webkit-border-radius: 5px 5px 0px 0px;
+        border-radius: 5px 5px 0px 0px;
+		border:solid 1px #bebebe;
+}
+
+
+.winContent {
+	height: 200px;
+	border:solid 1px #bebebe;
+	border-top:none;
+}
+.winContentHilight {
+	height: 200px;
+	border:solid 1px #bebebe;
+	border-top:none;
+}
+#youngsCombo {
+	
+	border:solid 1px #bebebe;
+	border-top:none;
+	border-bottom:none;
+}
+
+.winContent1 {
+	height: 200px;
+	border:solid 1px #bebebe;
+	border-top:none;
+}
+
+
+.winTitleBar p {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 10.6px;
+	font-weight: 100;
+	color: #666666;
+	margin: 0px;
+	padding: 3px 5px;
+	float: left;
+}
+.varTitle{
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	font-weight: 100;
+	color: #666666;
+	
+}
+.varTitle1{
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	font-weight: 100;
+	color: #666666;
+	text-align:center;
+	
+}
+.winClose {
+	height: 16px;
+	width: 16px;
+	float: right;
+	margin: 3px 5px;
+	cursor: pointer;
+	cursor: hand;	
+	background:url(img/closebut.gif) no-repeat center center;
+}
+#winContentRose
+{
+	overflow:hidden;
+	/*position:absolute;*/
+}
+#imageDiv{
+
+width:273px;
+	height:200px;
+    background:url(img/solarTracker.jpg) no-repeat center center;
+	background-size:273px 200px;
+
+  /* padding-left: 150px; */
+  /* padding-top: 264px; 
+  background: url(img/stillimage.png) no-repeat center;
+  background-size: 42px 109px;
+  margin-left: 105px;*/
+  /* padding-bottom: 230px; */
+  
+}
+#BgDiv{
+	width:273px;
+	height:200px;
+	
+ 
+	background-size: 100% 100%;  
+	display: block;
+	
+	
+}/
+
+#imageDiv{
+	width: 57px;
+  height: 289px;
+  /* padding-left: 150px; */
+  /* padding-top: 264px; 
+  background: url(img/stillimage.png) no-repeat center;
+  background-size: 42px 109px;
+  margin-left: 105px;*/
+  /* padding-bottom: 230px; */
+  
+}
+#imageDiv2{
+	width: 274px;
+  height: 96px;
+/*  background: url(img/paneltorotate.png) no-repeat center;
+  background-size: 90% 55%;
+  padding-top: 66px;
+  padding-bottom: 47px;
+  padding-left: -15px;
+  margin-left: -107px;*/
+  
+
+}div#loadingGIF {
+    
+    display: block;
+    width: 160px;
+    height: 25px;
+	padding-left:40px;
+    background: url(img/dwnd.gif) no-repeat center;
+    }
+#panelstand
+{
+	position: relative;
+  	left: 113px;
+  	top: 52px;
+}
+#rotatingpanel
+{
+    position: relative;
+  	top: -110px;
+}
+.SubButton
+{
+    width: 150px;
+    margin: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    padding-top: 2px;
+    padding-bottom: 2px;	
+}
